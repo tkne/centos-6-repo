@@ -1,7 +1,6 @@
-CentOS 6 yum repository
-======
+# CentOS 6 yum repository
 
-Working CentOS 6 yum repository files to replace the .repo files in your /etc/yum.repos.d folder on your CentOS 6 server.
+> Working CentOS 6 yum repository files to replace the .repo files in your /etc/yum.repos.d folder on your CentOS 6 server.
 
 ## Usage:
 Navigate to the `/etc` folder:
@@ -32,11 +31,12 @@ yum clean all
 
 </br>
 
-Update server:
+Update the installed packages on your system:
 ```bash
 yum update
 ```
 
 </br>
 
-In case you have other external repositories installed as well, you'll need to edit each .repo dotfile and replace the settings manually.
+> [!IMPORTANT]
+> In case you have other external repositories installed as well, you'll need to edit each .repo dotfile and replace the settings manually.
